@@ -1,5 +1,5 @@
 body {
-  background: url('images/bg.jpg') no-repeat center center fixed; 
+  background: url('../images/bg.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -46,4 +46,50 @@ h2 {
 	background-color: #919191;
 	border: none;
 	width: 50px;
+}
+
+.footer {
+	bottom: 0;
+	height: 25px;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background: rgba();
+	color: white;
+}
+
+.footer > a {
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+}
+
+#email:hover {
+	color: #c1ab19;
+}
+
+#facebook:hover {
+	color: #3b5998;
+}
+
+#twitter:hover {
+	color: #00aced;
+}
+
+#instagram:hover {
+	color: #517fa4;
+}
+
+#linkedin:hover {
+	color: #007bb6;
+}
+
+#github:hover {
+	color: #000;
+}
+
+.footerTitle {
+	/*text-decoration: underline;*/
+	text-transform: uppercase;
 }
